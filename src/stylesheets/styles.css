@@ -462,7 +462,7 @@ button.btn {
 
 .feature--left {
   position: relative;
-  padding-top: 100%;
+  padding-top: 170%;
 }
 
 .feature--left img {
@@ -478,7 +478,7 @@ button.btn {
 }
 
 .feature--right__title {
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 .feature--right__title h2 {
   font-weight: 500;
@@ -490,13 +490,13 @@ button.btn {
 }
 
 .feature--right {
-  padding-top: 100px;
+  padding-top: 50px;
   text-align: center;
   padding-left: 140px;
 }
 
 .feature--right__list.flex {
-  padding: 20px 15px;
+  padding: 10px 15px;
   align-items: center;
 }
 
@@ -539,4 +539,29 @@ button.btn {
 .feature--right__content {
   flex: 0 0 70%;
   max-width: 70%;
+}
+
+.section__review {
+  padding-top: 100px;
+}
+
+.review--title {
+  text-align: center;
+}
+
+.review--title h2 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #303E48;
+}
+.review--title p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #303E48;
+  padding-top: 30px;
 }/*# sourceMappingURL=styles.css.map */

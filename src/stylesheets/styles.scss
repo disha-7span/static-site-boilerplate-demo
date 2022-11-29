@@ -433,7 +433,7 @@ button.btn {
 }
 .feature--left {
     position: relative;
-    padding-top: 100%;
+    padding-top: 170%;
 }
 .feature--left img {
     position: absolute;
@@ -446,7 +446,7 @@ button.btn {
     object-fit: cover;
 }
 .feature--right__title {
-    padding-bottom : 70px;
+    padding-bottom : 30px;
 h2 {
     font-weight: 500;
     font-size: 64px;
@@ -457,12 +457,12 @@ h2 {
 }
 }
 .feature--right {
-    padding-top: 100px;
+    padding-top: 50px;
     text-align:center;
     padding-left: 140px;
 }
 .feature--right__list.flex {
-    padding: 20px 15px;
+    padding: 10px 15px;
     align-items: center;
 }
 .feature--right__wrap img {
@@ -502,5 +502,30 @@ h2 {
     max-width: 70%;
 }
 
-
 // feature css end
+
+// review css start
+.section__review {
+    padding-top: 100px;
+}
+.review--title {
+    text-align: center;
+}
+.review--title{
+    h2 {
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 77px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #303E48;
+    }
+    p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #303E48;
+        padding-top: 30px;
+    }
+}
