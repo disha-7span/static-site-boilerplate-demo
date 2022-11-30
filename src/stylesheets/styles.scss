@@ -721,8 +721,8 @@ section.section__gallery {
     color: #303E48;
     padding-bottom: 50px;
 }
-.other--product__card :nth-last-child(4) {
-    padding-right: 20px;
+.other--product__card  {
+    padding-right: 70px;
     text-align: center;
 }
 
@@ -741,6 +741,8 @@ section.section__faq {
 }
 .faq-main.flex {
     padding: 0 15px;
+    align-items: center;
+    justify-content: center;
 }
 .accordion {
     padding-top: 90px;
