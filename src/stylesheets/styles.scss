@@ -29,7 +29,7 @@ p{
     padding: 0;
 }
 .container{
-    max-width: 1300px;
+    max-width: 1600px;
     margin: 0 auto;
     padding:0 20px;
 }
@@ -66,6 +66,11 @@ p{
 .col-60{
     flex: 0 0 60%;
     max-width: 60%;
+    flex-wrap: wrap;
+}
+.col-25{
+    flex: 0 0 25%;
+    max-width: 25%;
     flex-wrap: wrap;
 }
 
@@ -614,8 +619,190 @@ h2 {
         line-height: 30px;
         color: #303E48;
         max-width: 90%;
+        padding-top: 20px;
     }
 }
 .product--title {
     padding-left: 150px;
+}
+.product--detail__wrap.flex {
+    padding: 0 15px;
+    align-items: center;
+}
+.product--wrap.flex {
+    padding: 0 15px;
+}
+.product--detail {
+    padding-top: 50px;
+}
+.product--text li {
+    padding-right: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 60px;
+    color: #303E48;
+}
+.product--discription{ 
+    span {
+        padding-right: 30px;
+    }
+    li {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 60px;
+        text-transform: capitalize;
+        color: #303E48;
+    }
+}
+// product css end
+
+// gallery css start
+.gallery.flex {
+    padding: 0 15px;
+    align-items: center;
+}
+section.section__gallery {
+    padding-top: 66px;
+    padding-bottom: 30px;
+}
+.gallery--image {
+    padding: 0 40px 40px 0;
+}
+// gallery css end
+
+// other product css start
+.section__other--product {
+    padding-bottom: 80px;
+}
+.other--product__content h5 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.other--product.flex {
+    padding: 0 15px;
+}
+.other--product__rating.flex {
+    padding: 15px 15px;
+}
+.other--product__prime.flex {
+    padding: 0 15px;
+}
+.other--product__star i {
+    color: #FF9900;
+}
+.other--product__rate span {
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #3FB3DD;
+    padding-left: 15px;
+}
+.other--product__prime strong {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #7D1D3F;
+}
+.other--product__prime img {
+    max-width: 24%;
+}
+.other--product__title h2 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #303E48;
+    padding-bottom: 50px;
+}
+.other--product__card :nth-last-child(4) {
+    padding-right: 20px;
+    text-align: center;
+}
+
+// faq section start
+section.section__faq {
+    padding: 100px 0;
+    background: #F2FCFF;
+}
+.faq--title h2 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #303E48;
+}
+.faq-main.flex {
+    padding: 0 15px;
+}
+.accordion {
+    padding-top: 90px;
+}
+.accordion-item {
+    padding: 10px 30px;
+    margin: 10px 20px;
+}
+.accordion a {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #170F49;
+}
+.accordion a::before {
+    font-family: 'Ionicons';
+    content: '.';
+    position: absolute;
+    left: -18px;
+    top: -30px;
+    font-size: 60px;
+    color: #000000;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.accordion a.active::before {
+    font-family: 'Ionicons';
+    content: '.';
+    color: #000000;
+}
+.accordion .content {
+    display: none;
+    padding: 1rem;
+    overflow: hidden;
+}
+.accordion .content p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #6F6C90;
+}
+
+// faq section end
+
+// footer css start
+.footer {
+    background: #303E48;
+}
+.footer--content.flex {
+    padding: 20px 15px;
+    align-items: center;
+    justify-content: space-between;
+    span {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
 }
