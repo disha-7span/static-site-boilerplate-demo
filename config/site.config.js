@@ -9,13 +9,13 @@ if (!ROOT) {
 
 const config = {
   // Your website's name, used for favicon meta tags
-  site_name: 'Demo site',
+  site_name: 'demo-website',
 
   // Your website's description, used for favicon meta tags
   site_description: 'A modern boilerplate for static website development',
 
   // Your website's URL, used for sitemap
-  site_url: 'https://yourwebsite.com',
+  site_url: 'https://example.com',
 
   // Google Analytics tracking ID (leave blank to disable)
   googleAnalyticsUA: '',
